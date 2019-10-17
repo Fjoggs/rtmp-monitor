@@ -1,3 +1,3 @@
-export function addRandomShit(x, y) {
-  return x + y;
-}
+require("@babel/register");
+
+require("./server.js");

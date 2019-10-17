@@ -7,12 +7,17 @@
   "author": "vegfjogs <vegard.fjogstad@finn.no>",
   "license": "MIT",
   "scripts": {
+    "start": "node src/index.js",
     "test": "jest"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "koa": "^2.10.0"
   }
 }
