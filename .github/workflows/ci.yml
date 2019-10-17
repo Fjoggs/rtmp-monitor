@@ -6,7 +6,5 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Install dependencies and run tests
-          run: |
-            npm install
-            npm run
+      - name: Install dependencies
+          run: npm install
