@@ -1,0 +1,12 @@
+name: build
+on: [push]
+
+jobs:
+  build:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dependencies and run tests
+      run: |
+      npm install
+      npm run test
